@@ -6,27 +6,61 @@
     <title>Mi portafolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <div class="container">
-    <header>
-        <img src="https://placehold.co/150" alt="Foto de perfil de Ricardo">
-        <h1>Hola, soy Ricardo</h1>
-    </header>
+    <header class="navbar">
+        <div class="navbar-logo">Luis Ricardo Trejo Ríos</div>
+    <nav class="navbar-links">
+    <a href="#inicio">Inicio</a>
+    <a href="#sobre-mi">Sobre Mí</a>
+  </nav>
+</header>
     
-    <main>
-        <p>Estoy aprendiendo a programar desde cero, usando Claude Code como mi mentor técnico.</p>
-        <ul>
-            <li>Uso de terminal y línea de comandos</li>
-            <li>Control de versiones con Git y GitHub</li>
-            <li>HTML, CSS y JavaScript</li>
-        </ul>
-        <button id="btnSaludo">Salúdame</button>
-        <p id="mensaje"></p>
-    </main>
+   <main>
+  <section id="inicio" class="hero">
+    <span class="hero-badge">Ciencias del deporte + Gestión + Tecnología</span>
+    <h1 class="hero-title">Optimizando el rendimiento deportivo con<span class="hero-highlight"> Ciencia, Tecnología y Datos</span></h1>
+    <p class="hero-subtitle">
+      Coordinador académico, investigador y Gestor de tecnología deportiva. Diseño soluciones que unen ciencias aplicadas al deporte, innovación tecnológica y gestión administrativa de alto nivel.
+    </p>
+    <div class="hero-buttons">
+      <a href="#sobre-mi" class="btn btn-primary">Conóceme</a>
+      <a href="https://github.com/luisricardotrejoau" target="_blank" class="btn btn-secondary">Ver GitHub</a>
+    </div>
+  </section>
+
+    <section id="sobre-mi" class="about">
+    <h2 class="section-title">Sobre Mí</h2>
+    <p class="about-text">
+      Soy Maestro en Administración y Licenciado en Entrenamiento Deportivo. Durante más
+      de 14 años me he dedicado a la educación superior, formando profesionales y
+      acompañando procesos de aprendizaje dentro y fuera del aula. Soy fundador de
+      InnovaPÉEK y Acrobatics Urban, dos iniciativas nacidas de mi pasión por combinar
+      la educación, el deporte y la innovación para transformar la vida de estudiantes
+      y atletas.
+    </p>
+    <div class="stats-grid">
+      <div class="stat-card">
+        <span class="stat-number">14+</span>
+        <span class="stat-label">Años en educación superior</span>
+      </div>
+      <div class="stat-card">
+        <span class="stat-number">2</span>
+        <span class="stat-label">Iniciativas fundadas</span>
+      </div>
+      <div class="stat-card">
+        <span class="stat-number">100s</span>
+        <span class="stat-label">Atletas y estudiantes impactados</span>
+      </div>
+    </div>
+  </section>
+
+</main>
 
     <footer>    
         <a href="https://github.com/luisricardotrejoau" target="_blank">Visita mi perfil de GitHub</a>
     </footer>
+
 </div>
     <script src="script.js"></script>
 </body>
